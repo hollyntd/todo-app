@@ -1,40 +1,70 @@
-# Description:
-The ToDo App is a user-friendly front-end application that allows users to organize their daily tasks and activities efficiently. With an intuitive interface and essential features, the app helps users stay organized and focused on their priorities.
+# Getting Started with Create React App
 
-# Key Features:
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Task Creation: Users can easily add new tasks by providing a task title, optional description, and priority level (High, Normal, Low).
+## Available Scripts
 
-Task List: The app displays all the added tasks in a list format, showing the task title, priority level, and completion status.
+In the project directory, you can run:
 
-Task Filtering: Users can filter tasks based on different criteria, such as Completed, Incomplete, or Priority (High, Normal, Low), making it easy to focus on specific tasks.
+### `npm start`
 
-Task Editing: The app allows users to edit task titles to keep information up-to-date and relevant.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Task Completion: Users can mark tasks as completed, and completed tasks are visually differentiated from the incomplete ones.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-Task Deletion: Users can delete tasks that are no longer relevant or needed.
+### `npm test`
 
-Responsive Design: The app is designed to be responsive and work seamlessly on various devices, including desktops, tablets, and mobile phones.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-# Technologies Used:
+### `npm run build`
 
-Front-end: HTML, CSS, React (including React Router, Material-UI)
-Deployment:
-The ToDo App is deployed using platforms like GitHub Pages or Netlify, making it accessible to users through a web URL.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-# How to Use:
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-Users can access the ToDo App through the provided web URL.
-Upon opening the app, users are greeted with a clear and organized interface, presenting a list of tasks.
-To add a new task, users can use the input fields provided, specifying the task title, optional description, and priority level.
-Existing tasks can be edited, marked as completed, or deleted as needed.
-Users can utilize the filtering options to focus on specific categories of tasks, such as completed tasks or tasks with a particular priority level.
-The app is designed with a user-centric approach, ensuring ease of use and efficient task management.
-Benefits:
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-Simplifies task organization and enhances productivity.
-User-friendly interface for easy navigation and task management.
-Customizable task priorities allow users to prioritize their work effectively.
-Can be accessed and used from any device with an internet connection.
-The ToDo App is an excellent tool for individuals seeking a straightforward and functional front-end solution for organizing daily tasks and increasing overall productivity.
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
